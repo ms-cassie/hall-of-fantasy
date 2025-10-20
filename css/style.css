@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
+:root {
+	--very-light-gray: #e9e9e9;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+	background-image: url('../images/hall-of-fantasy-background.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	font-family: Metamorphous, sans-serif;
+	color: var(--very-light-gray);
+	line-height: 1.5;
+}
+
+.content {
+	max-width: 80%;
+	margin: 1rem auto;
+}
+
+header,
+#headline,
+#disclaimer {
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 1rem;
+}
+
+header,
+section {
+	margin-bottom: 2rem;
+	padding: 2rem;
+}
+
+header {
+	padding: 1rem 1rem 2rem 1rem;
+}
+
+header nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3rem;
+}
+
+header nav h1 {
+	font-size: 3rem;
+}
+
+header nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+a.btn {
+	text-decoration: none;
+	background-color: var(--very-light-gray);
+	font-size: 1.25rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin: 1rem 0.5rem;
+}
+
+#headline span {
+	color: yellowgreen;
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+#headline h2,
+#headline p {
+	margin-bottom: 1rem;
+}
+
+#notifications {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+
+#notifications .notification-panel {
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 1rem;
+	width: 30%;
+	padding: 2rem;
+}
+
+.notification {
+	margin-bottom: 1rem;
+}
+
+.notification ul li,
+.notification p {
+	margin-bottom: 1rem;
+}
+
+.notification ul li span {
+	font-size: 1.35rem;
+	color: lightcoral;
+}
+
+#notifications div h3 {
+	text-decoration: underline;
+	margin-bottom: 1rem;
+}
+
+#disclaimer small {
+	display: block;
+	margin: 0 auto;
+}
