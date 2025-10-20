@@ -148,8 +148,8 @@ a.btn:active {
 	color: lightcoral;
 }
 
-.notification ul li::marker {
-	color: lightcoral;
+.notification ul li {
+	list-style-type: none;
 }
 
 #notifications div h3 {
